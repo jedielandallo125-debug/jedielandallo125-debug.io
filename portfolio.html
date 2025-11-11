@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Portfolio — Jediel Andallo</title>
+<link rel="stylesheet" href="finals.css">
+</head>
+<body class="theme">
+<div class="app">
+<aside class="sidebar" id="sidebar">
+<div class="brand">Jediel Andallo</div>
+<nav class="nav">
+<a href="index.html" class="nav-link">Home</a>
+<a href="gallery.html" class="nav-link">Gallery</a>
+<a href="portfolio.html" class="nav-link active">Portfolio</a>
+<a href="about.html" class="nav-link">About</a>
+<a href="contact.html" class="nav-link">Contact</a>
+</nav>
+<div class="sidebar-footer">© Jediel Andallo</div>
+<button class="sidebar-toggle" id="sidebarToggle3">☰</button>
+</aside>
+
+
+<main class="main">
+<header class="main-header">
+<h1>Portfolio</h1>
+<p class="muted">This activity — project descriptions, images and links.</p>
+</header>
+
+
+<section class="projects-grid">
+<article class="project-card">
+<h3>Project Title 1</h3>
+<a href="https://tayum-is.ct.ws/" class="btn" target="_blank">View Project</a>
+
+    <section class="resume-section">
+  <h2>My Resume</h2>
+  <p>You can view or download my resume below:</p>
+
+  <!-- Preview the resume (optional) -->
+  <iframe src="Black and White Minimalist Resume.pdf" class="resume-preview"></iframe>
+
+  <!-- Download button -->
+  <a href="resume.pdf" download class="btn">Download Resume (PDF)</a>
+</section>
+
+
+<footer class="footer">Portfolio — bring your projects to life</footer>
+</main>
+</div>
+<script>
+document.getElementById('sidebarToggle3').addEventListener('click', ()=>{
+document.getElementById('sidebar').classList.toggle('collapsed');
+});
+</script>
+</body>
+</html>
